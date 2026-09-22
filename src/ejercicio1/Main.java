@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Disco> aDiscos = new ArrayList<>();
-        aDiscos.add(new Disco("nombreAAAAAAAA", "grupoPrimero"));
-        aDiscos.add(new Disco("nombreBB", "grupoSegundo"));
+        aDiscos.add(new Disco("nombreAAAAAAAA", "1"));
+        aDiscos.add(new Disco("nombreBB", "123"));
         Collections.sort(aDiscos);
         System.out.println(aDiscos.get(0));
         System.out.println(aDiscos.get(1));
@@ -20,6 +20,7 @@ public class Main {
             }
         };
         Collections.sort(aDiscos, comparador);
+        System.out.println("--------------------------------------");
         System.out.println(aDiscos.get(0));
         System.out.println(aDiscos.get(1));
     }
