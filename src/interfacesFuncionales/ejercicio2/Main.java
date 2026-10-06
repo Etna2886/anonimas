@@ -14,7 +14,6 @@ import java.util.function.Predicate;
 
 public class Main {
 
-    // Método genérico que usa Combinador: no sabe qué operación se hará
     static <T, U, R> R aplicar(T a, U b, Combinador<T, U, R> operacion) {
         return operacion.combinar(a, b);
     }
