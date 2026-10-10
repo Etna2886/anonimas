@@ -1,4 +1,4 @@
-package ejercicio3;
+package lambdas.ejercicio3;
 
 @FunctionalInterface
 interface Operacion {

@@ -1,10 +1,10 @@
-package ejercicio3;
+package lambdas.ejercicio3;
 
 public class Main {
     public static void main(String[] args) {
-        Operacion suma = (a, b) -> a + b;[cite: 1, 3]
-        Operacion resta = (a, b) -> a - b;[cite: 1]
-        Operacion multiplicacion = (a, b) -> a * b;[cite: 1]
+        Operacion suma = (a, b) -> a + b;
+        Operacion resta = (a, b) -> a - b;
+        Operacion multiplicacion = (a, b) -> a * b;
 
         int num1 = 10;
         int num2 = 4;
