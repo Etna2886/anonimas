@@ -8,7 +8,8 @@ public class Ejercicio1 {
     public static void main(String[] args) {
 
         // 1.1
-        Predicate<Integer> p = new Predicate<Integer>() {
+        Predicate<Integer> p = new Predicate<Integer>() 
+        {
             @Override
             public boolean test(Integer edad) {
                 return edad >= 18;
