@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class ejercicio4 {
+public class Ejercicio4 {
     public static void main(String[] args) {
         List<String> nombres = Arrays.asList(
                 "Ana",
