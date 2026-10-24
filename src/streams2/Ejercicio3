@@ -1,0 +1,10 @@
+¿Qué ocurre al ejecutar este código?¿Por qué?
+List<Producto> todosLosProductos = clientes.stream() 
+ .flatMap(c -> c.getProductos().stream()) 
+ // .toList(); 
+ .collect(Collectors.toList());
+for(int contador=0;contador<todosLosProductos.size();contador++)
+System.out.println(todosLosProductos.get(contador).getNombre());
+todosLosProductos.add(p6);
+
+Se ejecuta con normalidad porque la lista es modificable si se descomentara el toList() lanzaria una escepcion porque seria inmutavel.

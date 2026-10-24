@@ -1,0 +1,9 @@
+Explica qué hace este código
+
+int suma =
+        numeros.stream()
+               .mapToInt(
+                    Integer::intValue)
+               .sum();
+
+Primero hace un stream, pasa los valores a integer y finalmente los suma y los guarda en la variable suama. 
